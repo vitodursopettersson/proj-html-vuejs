@@ -5,4 +5,11 @@
     max-width: 1240px;
     padding: 0 36px;
     margin: 0 auto;
+    height: 100%;
+    display: flex;
+
+    .column-50 {
+        width: 50%;
+    }
+
 }
