@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/poppins": "^5.0.8",
     "sass": "^1.69.5",
     "vue": "^3.3.11"
   },
