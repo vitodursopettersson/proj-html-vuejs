@@ -39,6 +39,7 @@ export default {
     .icon {
         font-size: 18px;
         color: #4BAF97;
+        cursor: pointer;
     }
 }
 </style>
