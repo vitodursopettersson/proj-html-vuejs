@@ -1,9 +1,11 @@
 <script>
 import AppMainSectionAbove from './AppMainSectionAbove.vue';
+import AppMainSectionBuild from './AppMainSectionBuild.vue';
 export default {
     name: 'AppMain',
     components: {
-        AppMainSectionAbove
+        AppMainSectionAbove,
+        AppMainSectionBuild,
     },
 }
 
@@ -12,6 +14,7 @@ export default {
 <template>
     <main>
         <AppMainSectionAbove />
+        <AppMainSectionBuild />
     </main>
 </template>
 

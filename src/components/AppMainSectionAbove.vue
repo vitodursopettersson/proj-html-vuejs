@@ -26,7 +26,7 @@ export default {
                 </AppButton>
             </div>
             <div class="column-50 img-container">
-                <img src="../assets/img/home-5-hero-image.png" alt="">
+                <img src="../assets/img/home-hero.png" alt="">
             </div>
         </div>
     </section>
@@ -36,6 +36,10 @@ export default {
 section {
     background-color: #E9E6E3;
     height: 80vh;
+
+    .container {
+        display: flex;
+    }
 
     .text-container {
         height: 100%;
