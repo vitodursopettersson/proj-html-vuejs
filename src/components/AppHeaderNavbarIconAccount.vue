@@ -17,6 +17,7 @@ export default {
     width: 20px;
     height: 20px;
     position: relative;
+    cursor: pointer;
 
     .icon {
         width: 100%;
