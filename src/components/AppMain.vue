@@ -1,11 +1,13 @@
 <script>
 import AppMainSectionAbove from './AppMainSectionAbove.vue';
 import AppMainSectionBuild from './AppMainSectionBuild.vue';
+import AppMainSectionDream from './AppMainSectionDream.vue';
 export default {
     name: 'AppMain',
     components: {
         AppMainSectionAbove,
         AppMainSectionBuild,
+        AppMainSectionDream,
     },
 }
 
@@ -15,6 +17,7 @@ export default {
     <main>
         <AppMainSectionAbove />
         <AppMainSectionBuild />
+        <AppMainSectionDream />
     </main>
 </template>
 

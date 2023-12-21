@@ -39,13 +39,6 @@ export default {
             margin-bottom: 20px;
         }
 
-        p {
-            font-size: 14px;
-            line-height: 24px;
-            color: #696969;
-            margin-bottom: 20px;
-        }
-
         a {
             text-decoration: none;
             font-size: 14px;
