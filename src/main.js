@@ -12,7 +12,8 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { faFileLines } from '@fortawesome/free-regular-svg-icons'
 import { faUser } from '@fortawesome/free-regular-svg-icons'
-library.add(faChevronDown, faCartShopping, faCircleUser, faMagnifyingGlass, faDownload, faFileLines, faUser)
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+library.add(faChevronDown, faCartShopping, faCircleUser, faMagnifyingGlass, faDownload, faFileLines, faUser, faLocationDot)
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)

@@ -6,6 +6,7 @@ import AppMainSectionCounter from './AppMainSectionCounter.vue';
 import AppMainSectionCourses from './AppMainSectionCourses.vue';
 import AppMainSectionWhy from './AppMainSectionWhy.vue';
 import AppMainSectionMobile from './AppMainSectionMobile.vue';
+import AppMainSectionEventVue from './AppMainSectionEvent.vue';
 export default {
     name: 'AppMain',
     components: {
@@ -16,6 +17,7 @@ export default {
         AppMainSectionCourses,
         AppMainSectionWhy,
         AppMainSectionMobile,
+        AppMainSectionEventVue,
     },
 }
 
@@ -30,6 +32,7 @@ export default {
         <AppMainSectionCourses />
         <AppMainSectionWhy />
         <AppMainSectionMobile />
+        <AppMainSectionEventVue />
     </main>
 </template>
 
