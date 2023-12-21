@@ -21,7 +21,7 @@ export default {
                         <font-awesome-icon icon="fa-solid fa-download" />
                     </template>
                     <template v-slot:text>
-                        <p>Download free E-book</p>
+                        <span>Download free E-book</span>
                     </template>
                 </AppButton>
             </div>

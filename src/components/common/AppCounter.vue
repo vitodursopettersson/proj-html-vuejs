@@ -26,7 +26,7 @@ export default {
     }
 
     h6 {
-        font-size: 15px;
+        font-size: 14px;
         text-transform: uppercase;
         color: #3F3A64;
         letter-spacing: 2px;
