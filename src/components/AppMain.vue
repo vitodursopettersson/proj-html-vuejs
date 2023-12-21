@@ -7,6 +7,7 @@ import AppMainSectionCourses from './AppMainSectionCourses.vue';
 import AppMainSectionWhy from './AppMainSectionWhy.vue';
 import AppMainSectionMobile from './AppMainSectionMobile.vue';
 import AppMainSectionEventVue from './AppMainSectionEvent.vue';
+import AppMainSectionTestimonials from './AppMainSectionTestimonials.vue';
 export default {
     name: 'AppMain',
     components: {
@@ -18,6 +19,7 @@ export default {
         AppMainSectionWhy,
         AppMainSectionMobile,
         AppMainSectionEventVue,
+        AppMainSectionTestimonials,
     },
 }
 
@@ -33,6 +35,7 @@ export default {
         <AppMainSectionWhy />
         <AppMainSectionMobile />
         <AppMainSectionEventVue />
+        <AppMainSectionTestimonials />
     </main>
 </template>
 
