@@ -21,7 +21,7 @@ export default {
 <style lang="scss" scoped>
 .heading-container {
 
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 
     h4 {
         text-transform: uppercase;

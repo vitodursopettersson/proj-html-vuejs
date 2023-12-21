@@ -4,6 +4,8 @@ import AppMainSectionBuild from './AppMainSectionBuild.vue';
 import AppMainSectionDream from './AppMainSectionDream.vue';
 import AppMainSectionCounter from './AppMainSectionCounter.vue';
 import AppMainSectionCourses from './AppMainSectionCourses.vue';
+import AppMainSectionWhy from './AppMainSectionWhy.vue';
+import AppMainSectionMobile from './AppMainSectionMobile.vue';
 export default {
     name: 'AppMain',
     components: {
@@ -12,6 +14,8 @@ export default {
         AppMainSectionDream,
         AppMainSectionCounter,
         AppMainSectionCourses,
+        AppMainSectionWhy,
+        AppMainSectionMobile,
     },
 }
 
@@ -24,6 +28,8 @@ export default {
         <AppMainSectionDream />
         <AppMainSectionCounter />
         <AppMainSectionCourses />
+        <AppMainSectionWhy />
+        <AppMainSectionMobile />
     </main>
 </template>
 

@@ -21,7 +21,7 @@ export default {
 button {
     background-color: #4BAF97;
     width: fit-content;
-    padding: 10px 32px;
+    padding: 14px 32px;
     display: flex;
     gap: 14px;
     justify-content: center;
